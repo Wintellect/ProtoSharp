@@ -23,7 +23,7 @@ myFoo.Prototype.SayHello = new Action(s => Console.WriteLine("Hello, " + s));
 yourFoo.SayHello(myBar.Name); // 'Hello, Josh'
 ```
 
-**Preserving member state***
+**Preserving member state**
 
 Becuase ProtoSharp walks the inheritence chain, members can be overriden on any single instance.
 
